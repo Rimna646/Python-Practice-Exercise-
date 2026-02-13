@@ -6,7 +6,7 @@ def bmi_analyzer():
         height = float(input("Enter your height in meters: "))
     except ValueError:
         print("Invalid input. Please enter numbers only.")
-        return  # Exit the function if input is invalid
+        return 
 
     if height <= 0 or weight <= 0:
         print("Height and weight must be positive numbers.")
