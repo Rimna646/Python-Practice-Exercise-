@@ -28,5 +28,4 @@ def bmi_analyzer():
 
     print(f"Health category: {category}")
 
-# Call the function
 bmi_analyzer()
