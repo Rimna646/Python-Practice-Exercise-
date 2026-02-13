@@ -12,11 +12,9 @@ def bmi_analyzer():
         print("Height and weight must be positive numbers.")
         return
 
-    # BMI calculation
     bmi = weight / (height ** 2)
     print(f"Your BMI is: {bmi:.2f}")
 
-    # BMI classification
     if bmi < 18.5:
         category = "Underweight"
     elif 18.5 <= bmi <= 24.9:
