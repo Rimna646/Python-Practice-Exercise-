@@ -20,10 +20,8 @@ def convert_unit(value, conversion_type):
         return f"{value} feet is {result} meters"
     else:
         return "Invalid conversion type. Please use C2F, F2C, M2F, or F2M."
-
-# Ask the user for input
+        
 value = float(input("Enter the value to convert: "))
 conversion_type = input("Enter conversion type (C2F, F2C, M2F, F2M): ")
 
-# Perform conversion and display the result
 print(convert_unit(value, conversion_type))
