@@ -1,4 +1,6 @@
 # Tax Calculator Program
+income = float(input("Enter your income amount: "))
+tax_net = calculate_tax(income)
 def calculate_tax(income):
     if income <= 2000:
         tax_rate = 0.0
