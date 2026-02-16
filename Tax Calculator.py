@@ -19,9 +19,5 @@ def calculate_tax(income):
 
     return total_tax, net_income
 
-income = float(input("Enter your income amount: "))
-
-tax_net = calculate_tax(income)
-
 print(f"\nYour total tax: ${tax:.2f}")
 print(f"Your net income after tax: ${net:.2f}")
